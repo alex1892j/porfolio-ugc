@@ -1,0 +1,384 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+img {
+  width: 100px;
+}
+
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  max-width: 100%;
+  background: rgb(245, 228, 237);
+}
+
+section {
+  margin: 3rem auto;
+  border-bottom: solid 1rem rgb(246, 107, 186);
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.p-osc {
+  width: 100%;
+  height: 200vh;
+  margin-top: 0;
+  position: fixed;
+  background: black;
+  opacity: 0.6;
+  display: none;
+}
+
+@media (min-width: 260px) {
+  #header {
+    max-width: 80%;
+    margin: auto auto;
+    padding-top: 2rem;
+    border-bottom: solid 1rem rgb(246, 107, 186);
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  #header .logo-content {
+    width: 100%;
+    text-align: center;
+  }
+  #header .logo-content .img-logo {
+    width: 170px;
+    height: 210px;
+    border-radius: 50%;
+    border: solid 0.5rem rgb(246, 107, 186);
+  }
+  #header .header-3 {
+    width: 100%;
+  }
+  #header .header-3 .name-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  #header .header-3 .phrase-p,
+  #header .header-3 .phrase-p-2 {
+    text-align: center;
+  }
+  #header .header-3 .menu .menu-2 {
+    display: none;
+    flex-direction: column;
+    width: 80%;
+    text-align: center;
+    margin: -11rem auto 0 auto;
+    position: fixed;
+    background: #fff;
+    z-index: 200;
+  }
+  #header .header-3 .menu .menu-2 .componentes-menu {
+    margin: 1rem;
+  }
+  #header .header-3 .menu .menu-2 .componentes-menu:hover {
+    scale: 1.3;
+    box-shadow: 0 0 8px rgb(246, 107, 186);
+  }
+  #header .header-3 .menu .menu-2 .componentes-menu a {
+    color: #000;
+  }
+  #header .header-3 .menu .menu-2 .componentes-menu .submenu {
+    display: none;
+  }
+  #header .header-3 .art-sociales {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: end;
+    position: fixed;
+    width: 95%;
+    box-sizing: border-box;
+    gap: 1rem;
+    margin: 11.5rem 0 0 -1.7rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 2px rgb(246, 107, 186);
+    z-index: 200;
+  }
+  #header .header-3 .art-sociales .btn-menu {
+    width: 8%;
+    margin: 0.5rem;
+    font-size: 1.5rem;
+  }
+  #header .header-3 .art-sociales .redes-s .sociales {
+    width: 32px;
+    margin: 0.5rem;
+  }
+  #header .header-3 .art-sociales .btn-wapp {
+    width: 10%;
+    margin: 0.5rem;
+    font-size: 2rem;
+    bottom: 30px;
+    right: 30px;
+    background: #0df053;
+    color: #fff;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  }
+}
+/*
+.header-2 {
+    display: flex;
+    justify-content: space-around;
+
+    .img-logo {
+        margin-top: 1.5rem;
+        width: 480px;
+        height: 665px;
+        border: solid 1rem rgb(251, 72, 171);
+        border-radius: 300px;
+        z-index: 100;
+    }
+
+    .header-3 {
+        width: 50%;
+        margin-top: 8rem;
+        text-align: center;
+
+
+        .name-title {
+            font-size: 6rem;
+            margin: 1.5rem;
+            color: rgb(251, 72, 171);
+        }
+
+        .phrase-p {
+            font-size: 2rem;
+            color: rgb(251, 72, 171);
+        }
+
+        .phrase-p-2 {
+            font-size: 1rem;
+            color: rgb(251, 72, 171);
+        }
+
+        .div {
+            height: 40px;
+            width: 135%;
+            margin-left: -13.5rem;
+            margin-top: 2rem;
+            background: rgb(251, 72, 171);
+
+        }
+
+    }
+
+    .menu {
+        display: flex;
+        width: 100%;
+
+        .menu-2 {
+            display: flex;
+            flex-direction: row;
+            margin-top: 1.5rem;
+            list-style: none;
+
+            a {
+                width: 100%;
+                margin-left: 1rem;
+                list-style: none;
+                text-decoration: none;
+                font-size: 1.2rem;
+                color: rgb(251, 72, 171);
+
+
+            }
+        }
+    }
+
+    .componentes-menu-sub {
+        &:hover {
+
+            .submenu {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+                position: absolute;
+                margin-top: 0;
+                background-color: #fff;
+                list-style: none;
+
+                .sub-li-con-e {
+                    margin: 0.3rem;
+                }
+            }
+        }
+    }
+
+    .submenu {
+        display: none;
+    }
+
+
+
+    .sociales {
+        .redes {
+            width: 30px;
+            margin: 1rem;
+
+            &:hover {
+                scale: 1.2;
+            }
+        }
+    }
+
+}
+*/
+@media (min-width: 260px) {
+  .t-v-ugc-e {
+    width: 90%;
+  }
+  .t-v-ugc-e .t-v-e .titulo-video-e {
+    text-align: center;
+  }
+  .t-v-ugc-e .t-v-e .video1-e {
+    display: flex;
+    margin: auto auto;
+    width: 80%;
+  }
+  .t-v-ugc-e .t-v-e .video1-e .tiktok-embed {
+    width: 300px;
+    height: 500px;
+    z-index: 100;
+  }
+  .t-v-ugc-e .t-v-e .p-v {
+    width: 85%;
+    margin: -1rem auto 1rem auto;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: solid 0.4rem rgb(246, 107, 186);
+    background: rgb(241, 85, 173);
+    color: #fff;
+    text-align: center;
+  }
+}
+@media (min-width: 260px) {
+  .seccion-sobre-mi {
+    width: 90%;
+  }
+  .seccion-sobre-mi .sobre-mi {
+    margin-bottom: 4rem;
+    text-align: center;
+  }
+  .seccion-sobre-mi .sobre-mi .titulo-sm {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .seccion-sobre-mi .sobre-mi .parrafo-sobre-mi {
+    text-align: justify;
+  }
+}
+@media (min-width: 260px) {
+  .seccion-experiencia {
+    width: 90%;
+  }
+  .seccion-experiencia .experiencia-e .experiencia-1 {
+    text-align: center;
+  }
+  .seccion-experiencia .experiencia-e .experiencia-1 .titulo-experiencia {
+    font-size: 2rem;
+  }
+  .seccion-experiencia .experiencia-e .experiencia-1 .experiencia-imagen {
+    width: 200px;
+    margin: 1rem;
+  }
+  .seccion-experiencia .experiencia-e .experiencia-2 .st-exp {
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+  }
+  .seccion-experiencia .experiencia-e .experiencia-2 .p-experiencia {
+    margin-bottom: 4rem;
+    text-align: justify;
+  }
+}
+@media (min-width: 260px) {
+  .mis-habilidades {
+    width: 90%;
+  }
+  .mis-habilidades .titulo-habilidades {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .mis-habilidades .list-habilidades {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .mis-habilidades .list-habilidades .lis-habilidades {
+    line-height: 2rem;
+    list-style-type: armenian;
+  }
+  .mis-habilidades .img-habilidades {
+    width: 60%;
+    margin: 2rem 20% 4rem 20%;
+  }
+}
+@media (min-width: 260px) {
+  .redes-t {
+    width: 90%;
+  }
+  .redes-t .titulo-redes {
+    text-align: center;
+  }
+  .redes-t .redes-final .redes-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 1rem;
+  }
+  .redes-t .redes-final .redes-footer .sociales {
+    width: 60px;
+    cursor: pointer;
+  }
+  .redes-t .redes-final .redes-footer .sociales:hover {
+    scale: 1.4;
+  }
+}
+@media (min-width: 260px) {
+  .ugc-e {
+    width: 90%;
+  }
+  .ugc-e .t-p-ugc-e {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .ugc-e .ugc-qs-e-1 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .ugc-e .ugc-e-1p {
+    text-align: justify;
+    margin-bottom: 1rem;
+  }
+  .ugc-e .art-ugc-e-2 {
+    margin-bottom: 4rem;
+  }
+}
+@media (min-width: 260px) {
+  .tabla-servicios {
+    display: flex;
+    width: 90%;
+  }
+  .tabla-servicios .titulo-servicios {
+    text-align: center;
+    margin: 1rem;
+  }
+  .tabla-servicios tbody {
+    margin-bottom: 2rem;
+  }
+  .tabla-servicios tbody .tabla-th {
+    text-align: center;
+    margin: 4px;
+    border: solid 2px rgb(246, 107, 186);
+  }
+}/*# sourceMappingURL=style.css.map */

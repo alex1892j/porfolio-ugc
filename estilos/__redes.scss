@@ -1,0 +1,30 @@
+@use'__commons' as c;
+
+
+@media (min-width: 260px) {
+    .redes-t {
+        width: 90%;
+
+        .titulo-redes {
+            text-align: center;
+        }
+
+        .redes-final {
+            .redes-footer {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                margin: 1rem;
+
+                .sociales {
+                    width: 60px;
+                    cursor: pointer;
+
+                    &:hover {
+                        scale: 1.4;
+                    }
+                }
+            }
+        }
+    }
+}

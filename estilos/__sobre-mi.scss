@@ -1,0 +1,21 @@
+@use'__commons' as c;
+
+@media (min-width: 260px) {
+    .seccion-sobre-mi {
+        width: 90%;
+
+        .sobre-mi {
+            margin-bottom: 4rem;
+            text-align: center;
+
+            .titulo-sm {
+                font-size: 2rem;
+                margin-bottom: 1rem;
+            }
+
+            .parrafo-sobre-mi {
+                text-align: justify;
+            }
+        }
+    }
+}

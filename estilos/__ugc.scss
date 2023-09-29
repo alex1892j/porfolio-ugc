@@ -1,0 +1,27 @@
+@use'__commons' as c;
+
+@media (min-width: 260px) {
+    .ugc-e {
+        width: 90%;
+
+        .t-p-ugc-e {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .ugc-qs-e-1 {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .ugc-e-1p {
+            text-align: justify;
+            margin-bottom: 1rem;
+        }
+
+        .art-ugc-e-2 {
+            margin-bottom: 4rem;
+        }
+    }
+}
