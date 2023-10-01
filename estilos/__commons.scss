@@ -40,3 +40,55 @@ section {
     opacity: 0.6;
     display: none;
 }
+
+.sc {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 95vh;
+    width: 100%;
+    position: fixed;
+
+    .art-sociales {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        position: fixed;
+        width: 100%;
+        box-sizing: border-box;
+        gap: 1rem;
+        margin: 0 auto 0 auto;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 2px $border-color;
+        z-index: 200;
+
+        .btn-menu {
+            width: 8%;
+            margin: 0.5rem;
+            font-size: 1.5rem;
+
+        }
+
+        .redes-s {
+            .sociales {
+
+                width: 32px;
+                margin: 0.5rem;
+            }
+        }
+
+        .btn-wapp {
+            width: 10%;
+            margin: 0.5rem;
+            font-size: 2rem;
+            bottom: 30px;
+            right: 30px;
+            background: #0df053;
+            color: #fff;
+            border-radius: 40px;
+            text-align: center;
+            box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+        }
+    }
+}
