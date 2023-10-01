@@ -3,7 +3,7 @@ const d = document;
 const $videoUgc = d.getElementById('t-v-ugc'),
     $templateVideo = d.getElementById('template-video').content,
     $fragmentoVideo = d.createDocumentFragment(),
-    $video = await fetch('/Recursos-json/video.json'),
+    $video = await fetch('./Recursos-json/video.json'),
     $datosVideo = await $video.json();
 
 $datosVideo.forEach(el => {
