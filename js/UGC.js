@@ -3,7 +3,7 @@ const d = document;
 const $ugcPrincipal = d.getElementById("ugc-p"),
     $templateUgc = d.getElementById("template-ugc").content,
     $fragmentoUgc = d.createDocumentFragment(),
-    $ugcJson = await fetch('/Recursos-json/ugc.json'),
+    $ugcJson = await fetch('./Recursos-json/ugc.json'),
     $datoUgc = await $ugcJson.json();
 
 $datoUgc.forEach(el => {

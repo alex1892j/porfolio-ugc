@@ -3,7 +3,7 @@ const $experiencia = d.getElementById("exp"),
     $templateExperiencia = d.getElementById("template-experiencia").content,
     $fragmetoExperiencia = d.createDocumentFragment();
 
-const $ExperienciaJson = await fetch('/Recursos-json/experiencia.json'),
+const $ExperienciaJson = await fetch('./Recursos-json/experiencia.json'),
     $datoExperiencia = await $ExperienciaJson.json();
 
 $datoExperiencia.forEach(el => {
