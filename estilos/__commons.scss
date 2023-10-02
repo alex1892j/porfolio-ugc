@@ -44,10 +44,12 @@ section {
 .sc {
     display: flex;
     flex-direction: column-reverse;
-    height: 93vh;
+    height: 100vh;
     width: 100%;
+    margin-top: 0;
     position: fixed;
     z-index: 200;
+    //border: solid 2px red;
 
     .art-sociales {
         display: flex;
