@@ -44,16 +44,18 @@ section {
 .sc {
     display: flex;
     flex-direction: column-reverse;
-    height: 95vh;
+    height: 90vh;
     width: 100%;
     position: fixed;
+    z-index: 200;
 
     .art-sociales {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         align-items: flex-start;
-        position: fixed;
+        position: -webkit-sticky;
+        position: sticky;
         width: 100%;
         box-sizing: border-box;
         gap: 1rem;
@@ -61,7 +63,6 @@ section {
         background: #fff;
         border-radius: 10px;
         box-shadow: 0 0 2px $border-color;
-        z-index: 200;
 
         .btn-menu {
             width: 8%;
