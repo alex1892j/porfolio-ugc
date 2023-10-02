@@ -44,7 +44,7 @@ section {
 .sc {
     display: flex;
     flex-direction: column-reverse;
-    height: 90vh;
+    height: 93vh;
     width: 100%;
     position: fixed;
     z-index: 200;
@@ -53,13 +53,10 @@ section {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        align-items: flex-start;
         position: -webkit-sticky;
         position: sticky;
         width: 100%;
         box-sizing: border-box;
-        gap: 1rem;
-        margin: 0 auto 0 auto;
         background: #fff;
         border-radius: 10px;
         box-shadow: 0 0 2px $border-color;
