@@ -56,7 +56,8 @@ section {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        position: absolute;
+        position: sticky;
+        bottom: 0;
         width: 100%;
         background: #fff;
         border-radius: 10px;
