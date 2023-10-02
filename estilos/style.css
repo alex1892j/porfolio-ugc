@@ -53,6 +53,7 @@ section {
   background: #fff;
   border-radius: 10px;
   box-shadow: 0 0 2px rgb(246, 107, 186);
+  z-index: 400;
 }
 .sc .art-sociales .btn-menu {
   width: 8%;
