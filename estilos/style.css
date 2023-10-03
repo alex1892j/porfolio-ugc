@@ -38,12 +38,12 @@ section {
   flex-direction: row;
   justify-content: space-evenly;
   position: fixed;
-  transform: translate(0%, 755%);
+  bottom: -43px;
   width: 100%;
   background: #fff;
   border-radius: 10px;
   box-shadow: 0 0 2px rgb(246, 107, 186);
-  z-index: 400;
+  z-index: 120;
 }
 .art-sociales .btn-menu {
   width: 8%;
