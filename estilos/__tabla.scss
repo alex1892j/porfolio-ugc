@@ -2,26 +2,39 @@
 
 @media (min-width: 260px) {
 
-    .tabla-servicios {
+    #servicios-ofrecidos {
+        display: grid;
+        grid-template-areas: servicios;
         display: flex;
         width: 90%;
 
-        .titulo-servicios {
-            text-align: center;
-            margin: 1rem;
+        .tabla-servicios-e {
+            max-width: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 4rem;
 
 
-        }
-
-        tbody {
-
-            margin-bottom: 2rem;
-
-            .tabla-th {
+            .titulo-servicios {
                 text-align: center;
-                margin: 4px;
-                border: solid 2px c.$border-color;
+                margin: 1rem;
+
+
+            }
+
+            .tbody {
+
+                .tabla-th {
+                    text-align: center;
+                    margin: 4px;
+                    border: solid 2px c.$border-color;
+                }
             }
         }
+
+
     }
+
+
+
 }

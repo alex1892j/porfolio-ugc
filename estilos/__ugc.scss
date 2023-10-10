@@ -1,13 +1,35 @@
 @use'__commons' as c;
 
 @media (min-width: 260px) {
-    .ugc-e {
+    #ugc-p {
+        display: grid;
+        grid-template-areas: ugc;
         width: 90%;
+
+        .art-ugc-e-1 {
+            background: c.$titulos-color;
+            color: #fff;
+            padding: 1rem;
+        }
+
+        .art-ugc-e-2 {
+            background: #fff;
+            margin-bottom: 4rem;
+            padding: 1rem;
+        }
 
         .t-p-ugc-e {
             text-align: center;
             font-size: 2rem;
+            color: c.$titulos-color;
             margin-bottom: 1rem;
+        }
+
+        .ugc-qs-e-2 {
+
+            text-align: center;
+            margin-bottom: 1rem;
+            color: c.$titulos-color;
         }
 
         .ugc-qs-e-1 {
@@ -20,8 +42,32 @@
             margin-bottom: 1rem;
         }
 
-        .art-ugc-e-2 {
-            margin-bottom: 4rem;
+
+    }
+}
+
+@media (min-width: 655px) {
+    #ugc-p {
+        display: grid;
+        grid-template-areas: ugc;
+        width: 90%;
+
+        .art-ugc-e {
+            display: flex;
+            flex-direction: row;
+            max-width: 1000px;
+            margin: 1rem auto;
+
+            .art-ugc-e-1 {
+                width: 50%;
+                height: 55.5vh;
+            }
+
+            .art-ugc-e-2 {
+                width: 50%;
+                height: 55.5vh;
+            }
         }
+
     }
 }

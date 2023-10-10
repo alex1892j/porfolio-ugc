@@ -5,7 +5,7 @@ const $heder = d.getElementById("header"),
     $fragmentH = d.createDocumentFragment(),
     headerContent = [
         {
-            img: "recursos/img/img.jpg",
+            img: "recursos/img/perfil.jpg",
             h1: "Natalia Milagros Arrescurrenaga",
             p: "CREADORA DE CONTENIDO UGC",
             p2: "(CONTENIDO GENERADO POR EL USUARIO)"

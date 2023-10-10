@@ -11,9 +11,13 @@
             .titulo-sm {
                 font-size: 2rem;
                 margin-bottom: 1rem;
+                color: c.$titulos-color;
             }
 
             .parrafo-sobre-mi {
+                max-width: 600px;
+                margin-left: auto;
+                margin-right: auto;
                 text-align: justify;
             }
         }

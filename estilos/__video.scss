@@ -1,15 +1,20 @@
 @use'__commons' as c;
 
 @media (min-width: 260px) {
+    #t-v-ugc {
+        display: grid;
+        grid-template-areas: tvugc;
+    }
 
     .t-v-ugc-e {
         width: 90%;
 
         .t-v-e {
-
+            margin-bottom: 4rem;
 
             .titulo-video-e {
                 text-align: center;
+                color: c.$titulos-color;
             }
 
             .video1-e {
@@ -38,4 +43,48 @@
         }
 
     }
+}
+
+@media (min-width: 700px) {
+    #t-v-ugc {
+        display: grid;
+        grid-template-areas: tvugc;
+    }
+
+    .t-v-ugc-e {
+
+        .t-v-e {
+
+            .video-e {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            }
+
+
+        }
+
+    }
+
+}
+
+@media (min-width: 1000px) {
+    #t-v-ugc {
+        display: grid;
+        grid-template-areas: tvugc;
+    }
+
+    .t-v-ugc-e {
+
+        .t-v-e {
+
+            .video-e {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            }
+
+
+        }
+
+    }
+
 }

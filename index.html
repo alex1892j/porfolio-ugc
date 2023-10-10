@@ -9,11 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </head>
 
-<body>
-
-    <section id="pantalla-oscura" class="p-osc">
-    </section>
-
+<body id="contenedor">
 
     <section class="art-sociales">
         <button id="btn-menu-id" class="btn-menu">
@@ -30,9 +26,6 @@
 
     </section>
 
-
-
-
     <header id="header">
 
 
@@ -47,34 +40,32 @@
                     <p id="phrase" class="phrase-p"></p>
                     <p id="phrase-2" class="phrase-p-2"></p>
 
-                    <nav class="menu">
-
-                        <ul id="menu-bloque" class="menu-2">
-                            <li class="componentes-menu"><a href="#">Inicio</a></li>
-                            <li class="componentes-menu"><a href="#s-sobre-mi">Sobre mí</a></li>
-                            <li class="componentes-menu"><a href="#experiencia">Experiencia</a></li>
-                            <li class="componentes-menu"><a href="#habilidades">Mis habilidades</a></li>
-                            <li class="componentes-menu"><a href="#ugc">UGC</a></li>
-                            <li class="componentes-menu"><a href="#">Contenido UGC</a>
-                                <ul id="sub-menu-contenido" class="submenu">
-                                    <li class="sub-li-con-e"><a href="#titulo-videos">Tipos de video UGC</a></li>
-                                    <li class="sub-li-con-e"><a href="#">Fotografias UGC</a></li>
-                                    <li class="sub-li-con-e"><a href="#">Tipos de colaboraciones UGC</a></li>
-                                </ul>
-                            </li>
-                            <li class="componentes-menu"><a href="#servicios-ofrecidos">Servicios ofrecidos</a></li>
-                        </ul>
-                    </nav>
-
-
                 </article>
 
             </article>
         </template>
 
+
+        <nav id="panel-menu" class="menu">
+
+            <ul id="menu-bloque" class="menu-2">
+                <li class="componentes-menu"><a href="#header">Inicio</a></li>
+                <li class="componentes-menu"><a href="#s-sobre-mi">Sobre mí</a></li>
+                <li class="componentes-menu"><a href="#experiencia">Experiencia</a></li>
+                <li class="componentes-menu"><a href="#habilidades">Mis habilidades</a></li>
+                <li class="componentes-menu"><a href="#ugc-p">UGC</a></li>
+                <li id="sub-menu" class="componentes"><a href="#">Contenido UGC</a>
+                    <ul id="sub-menu-contenido" class="submenu">
+                        <li class="sub-li-con-e"><a href="#titulo-videos">Tipos de video UGC</a></li>
+                        <li class="sub-li-con-e"><a href="#">Fotografias UGC</a></li>
+                        <li class="sub-li-con-e"><a href="#">Tipos de colaboraciones UGC</a></li>
+                    </ul>
+                </li>
+                <li class="componentes-menu"><a href="#servicios-ofrecidos">Servicios ofrecidos</a></li>
+            </ul>
+        </nav>
+
     </header>
-
-
 
     <section id="s-sobre-mi" class="seccion-sobre-mi">
         <article id="s-m" class="sobre-mi">
@@ -109,27 +100,27 @@
                     <h3 id="sub-e4" class="st-exp"></h3>
                     <p id="p-exp-4" class="p-experiencia"></p>
                 </article>
-
             </template>
-
-
         </article>
     </section>
 
     <section id="habilidades" class="mis-habilidades">
-        <h2 id="t-habilidades" class="titulo-habilidades">Mis habilidades</h2>
-        <article class="list-habilidades">
-            <ul class="lis-habilidades">
-                <li class="lista-habilidades">Edición de video</li>
-                <li class="lista-habilidades">Fotografía</li>
-                <li class="lista-habilidades">Diseño gráfico</li>
-            </ul>
-            <ul class="lis-habilidades">
-                <li class="lista-habilidades">Publicidad</li>
-                <li class="lista-habilidades">Copywriting</li>
-                <li class="lista-habilidades">Marketing</li>
-            </ul>
-        </article>
+        <div class="bloq-h">
+            <h2 id="t-habilidades" class="titulo-habilidades">Mis <br> habilidades</h2>
+            <article class="list-habilidades">
+                <ul class="lis-habilidades">
+                    <li class="lista-habilidades">Edición de video</li>
+                    <li class="lista-habilidades">Fotografía</li>
+                    <li class="lista-habilidades">Diseño gráfico</li>
+                </ul>
+                <ul class="lis-habilidades">
+                    <li class="lista-habilidades">Publicidad</li>
+                    <li class="lista-habilidades">Copywriting</li>
+                    <li class="lista-habilidades">Marketing</li>
+                </ul>
+            </article>
+        </div>
+
         <img src="/recursos/img/img.jpg" alt="" class="img-habilidades">
     </section>
 
@@ -143,12 +134,12 @@
                     <p id="ugc-qs-1p" class="ugc-e-1p"></p>
                 </article>
                 <article id="art-ugc-2" class="art-ugc-e-2">
-                    <h2 id="ugc-qs-2" class="ugc-qs-e-1"></h2>
-                    <h3 id="h3-ugc-qs-1" class="ugc-qs-e-1"></h3>
+                    <h2 id="ugc-qs-2" class="ugc-qs-e-2"></h2>
+                    <h3 id="h3-ugc-qs-1" class="ugc-qs-e-2"></h3>
                     <p id="p-ugc-qs-1" class="ugc-e-1p"></p>
-                    <h3 id="h3-ugc-qs-2" class="ugc-qs-e-1"></h3>
+                    <h3 id="h3-ugc-qs-2" class="ugc-qs-e-2"></h3>
                     <p id="p-ugc-qs-2" class="ugc-e-1p"></p>
-                    <h3 id="h3-ugc-qs-3" class="ugc-qs-e-1"></h3>
+                    <h3 id="h3-ugc-qs-3" class="ugc-qs-e-2"></h3>
                     <p id="p-ugc-qs-3" class="ugc-e-1p"></p>
                 </article>
             </article>
@@ -166,59 +157,90 @@
 
                 <article id="videos">
                     <article id="video1" class="video-e">
-                        <div id="video1-1" class="video1-e"></div>
-                        <p class="p-v">TRY ON</p>
+                        <div>
+                            <div id="video1-1" class="video1-e"></div>
+                            <p class="p-v">TRY ON</p>
+                        </div>
 
-                        <div id="video1-2" class="video1-e"></div>
-                        <p class="p-v">USANDO PRODUCTOS</p>
+                        <div>
+                            <div id="video1-2" class="video1-e"></div>
+                            <p class="p-v">USANDO PRODUCTOS</p>
+                        </div>
 
-                        <div id="video1-3" class="video1-e"></div>
-                        <p class="p-v">VOZ EN OFF</p>
+                        <div>
+                            <div id="video1-3" class="video1-e"></div>
+                            <p class="p-v">VOZ EN OFF</p>
+                        </div>
 
-                        <div id="video1-4" class="video1-e"></div>
-                        <p class="p-v">HAUL</p>
-
+                        <div>
+                            <div id="video1-4" class="video1-e"></div>
+                            <p class="p-v">HAUL</p>
+                        </div>
 
                     </article>
                     <article id="video2" class="video-e">
-                        <div id="video2-5" class="video1-e"></div>
-                        <p class="p-v">RESEÑAS</p>
+                        <div>
+                            <div id="video2-5" class="video1-e"></div>
+                            <p class="p-v">RESEÑAS</p>
+                        </div>
 
-                        <div id="video2-6" class="video1-e"></div>
-                        <p class="p-v">GRW M</p>
+                        <div>
+                            <div id="video2-6" class="video1-e"></div>
+                            <p class="p-v">GRW M</p>
+                        </div>
 
-                        <div id="video2-7" class="video1-e"></div>
-                        <p class="p-v">OUTFITS / INSPO</p>
+                        <div>
+                            <div id="video2-7" class="video1-e"></div>
+                            <p class="p-v">OUTFITS / INSPO</p>
+                        </div>
 
-                        <div id="video2-8" class="video1-e"></div>
-                        <p class="p-v">HAUL</p>
+                        <div>
+                            <div id="video2-8" class="video1-e"></div>
+                            <p class="p-v">HAUL</p>
+                        </div>
 
 
                     </article>
                     <article id="video3" class="video-e">
-                        <div id="video3-9" class="video1-e"></div>
-                        <p class="p-v">TRY ON</p>
 
-                        <div id="video3-10" class="video1-e"></div>
-                        <p class="p-v">GRW M</p>
+                        <div>
+                            <div id="video3-9" class="video1-e"></div>
+                            <p class="p-v">TRY ON</p>
+                        </div>
 
-                        <div id="video3-11" class="video1-e"></div>
-                        <p class="p-v">SERVICIOS</p>
+                        <div>
+                            <div id="video3-10" class="video1-e"></div>
+                            <p class="p-v">GRW M</p>
+                        </div>
 
-                        <div id="video3-12" class="video1-e"></div>
-                        <p class="p-v">SERVICIOS</p>
+                        <div>
+                            <div id="video3-11" class="video1-e"></div>
+                            <p class="p-v">SERVICIOS</p>
+                        </div>
+
+                        <div>
+                            <div id="video3-12" class="video1-e"></div>
+                            <p class="p-v">SERVICIOS</p>
+                        </div>
+
 
                     </article>
                     <article id="video4" class="video-e">
-                        <div id="video4-13" class="video1-e"></div>
-                        <p class="p-v">HAUL</p>
 
-                        <div id="video4-14" class="video1-e"></div>
-                        <p class="p-v">TRY ON</p>
+                        <div>
+                            <div id="video4-13" class="video1-e"></div>
+                            <p class="p-v">HAUL</p>
+                        </div>
 
-                        <div id="video4-15" class="video1-e"></div>
-                        <p class="p-v">GRW M</p>
+                        <div>
+                            <div id="video4-14" class="video1-e"></div>
+                            <p class="p-v">TRY ON</p>
+                        </div>
 
+                        <div>
+                            <div id="video4-15" class="video1-e"></div>
+                            <p class="p-v">GRW M</p>
+                        </div>
 
                     </article>
                 </article>
@@ -231,9 +253,9 @@
 
     <section id="servicios-ofrecidos" class="tabla-servicios">
         <form class="tabla-servicios-e">
-            <table>
+            <table class="table">
                 <h2 class="titulo-servicios">SERVICIOS OFRECIDOS - CREADOR UGC</h2>
-                <tbody>
+                <tbody class="tbody">
                     <tr>
                         <th class="tabla-th">Producto / servicio</th>
                         <th class="tabla-th">Descripción - Creator UGC</th>
@@ -267,7 +289,8 @@
             </table>
         </form>
     </section>
-    <section class="redes-t">
+
+    <section id="redes-contacto" class="redes-t">
         <h2 class="titulo-redes">MIS REDES SOCIALES</h2>
         <article class="redes-final">
             <div class="redes-footer">

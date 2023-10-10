@@ -1,5 +1,15 @@
 $fondo-color: rgb(245, 228, 237);
 $border-color: rgb(246, 107, 186);
+$titulos-color: rgb(244, 43, 157);
+
+:root {
+    --opacity-modal-color: rgba(34, 34, 34, 0.70);
+    --opacity-sub-modal-color: rgb(242, 247, 247, 0.80);
+}
+
+html {
+    scroll-behavior: smooth;
+}
 
 * {
 
@@ -15,11 +25,27 @@ img {
     width: 100px;
 }
 
-body {
+#contenedor {
     box-sizing: border-box;
     overflow-x: hidden;
     max-width: 100%;
     background: $fondo-color ;
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(8, auto);
+    grid-template-areas:
+
+
+        "header"
+        "s-sobre-mi"
+        "experiencia"
+        "habilidades"
+        "ugc-p"
+        "t-v-ugc"
+        "servicios-ofrecidos"
+        "redes-contacto"
+    ;
 }
 
 
@@ -39,47 +65,4 @@ section {
     background: black;
     opacity: 0.6;
     display: none;
-}
-
-
-.art-sociales {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    position: fixed;
-    bottom: -43px;
-    width: 100%;
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 2px $border-color;
-    z-index: 120;
-
-
-    .btn-menu {
-        width: 8%;
-        margin: 0.5rem;
-        font-size: 1.5rem;
-
-    }
-
-    .redes-s {
-        .sociales {
-
-            width: 32px;
-            margin: 0.5rem;
-        }
-    }
-
-    .btn-wapp {
-        width: 10%;
-        margin: 0.5rem;
-        font-size: 2rem;
-        bottom: 30px;
-        right: 30px;
-        background: #0df053;
-        color: #fff;
-        border-radius: 40px;
-        text-align: center;
-        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
-    }
 }
