@@ -1,0 +1,34 @@
+[
+    {
+        "img": "recursos/img/belleza.png",
+        "fig": "BELLEZA"
+    },
+    {
+        "img": "recursos/img/clubs.png",
+        "fig": "CLUBS"
+    },
+    {
+        "img": "recursos/img/restaurantes.png",
+        "fig": "RESTAURANTES"
+    },
+    {
+        "img": "recursos/img/restobares.png",
+        "fig": "RESTOBARES"
+    },
+    {
+        "img": "recursos/img/style-life.png",
+        "fig": "STYLE LIFE"
+    },
+    {
+        "img": "recursos/img/tienda-ropa.png",
+        "fig": "TIENDA DE ROPA"
+    },
+    {
+        "img": "recursos/img/petlover.png",
+        "fig": "PETLOVER"
+    },
+    {
+        "img": "recursos/img/productos.png",
+        "fig": "PRODUCTOS"
+    }
+]

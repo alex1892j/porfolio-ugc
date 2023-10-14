@@ -11,9 +11,11 @@
         bottom: -43px;
         width: 100%;
         background: #fff;
-        border-radius: 10px;
-        box-shadow: 0 0 2px c.$border-color;
+        border-radius: 5px;
+        border-bottom: none;
+        box-shadow: 0 0 15px c.$border-color;
         z-index: 220;
+
 
 
         .btn-menu {

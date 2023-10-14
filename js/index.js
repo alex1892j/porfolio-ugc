@@ -1,6 +1,7 @@
 import $experiencia from "./Experiencia.js";
 import $sobreMi from "./SobreMi.js";
 import $ugcPrincipal from "./UGC.js";
+import $colaboraciones from "./colaboraciones.js";
 import $heder from "./heder.js";
 import $btnMenu from "./menu.js";
 import $componenteMenu from "./remove.js";
@@ -19,6 +20,7 @@ document.addEventListener('DOMContentLoaded', (e) => {
     $componenteMenu
     $subMenu
     $componenteMenusub
+    $colaboraciones
 })
 
 

@@ -3,25 +3,54 @@
 
 @media (min-width: 260px) {
     .redes-t {
+        margin-top: -2rem;
         width: 90%;
 
         .titulo-redes {
             text-align: center;
+            margin: 1rem;
         }
 
-        .redes-final {
-            .redes-footer {
-                display: flex;
-                flex-direction: row;
-                justify-content: space-evenly;
+        .sub-seccion-redes {
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+
+            .img-redes-art {
+                width: 35%;
                 margin: 1rem;
 
-                .sociales {
-                    width: 60px;
-                    cursor: pointer;
+                .img-mis-redes {
+                    width: 100%;
+                    border-radius: 10px;
+                }
+            }
 
-                    &:hover {
-                        scale: 1.4;
+            .redes-final {
+                width: 35%;
+
+                .redes-footer {
+                    display: flex;
+                    flex-direction: row;
+                    margin-top: 1rem;
+
+                    .sociales {
+                        width: 35px;
+                        margin: 0.5rem;
+                        cursor: pointer;
+
+                        &:hover {
+                            scale: 1.4;
+                        }
+                    }
+
+                    p {
+
+                        padding-top: 10px;
                     }
                 }
             }

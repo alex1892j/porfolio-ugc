@@ -33,7 +33,7 @@ img {
 
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: repeat(8, auto);
+    grid-template-rows: repeat(7, auto);
     grid-template-areas:
 
 
@@ -43,7 +43,7 @@ img {
         "habilidades"
         "ugc-p"
         "t-v-ugc"
-        "servicios-ofrecidos"
+        "colaboraciones-1"
         "redes-contacto"
     ;
 }
