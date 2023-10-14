@@ -625,6 +625,7 @@ section {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 4rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
@@ -644,5 +645,16 @@ section {
   }
   #colaboraciones-1 #colaboraciones figure:hover {
     scale: 1.1;
+  }
+}
+@media (min-width: 1000px) {
+  #colaboraciones-1 {
+    display: grid;
+    grid-template-areas: colaboraciones;
+    width: 90%;
+    margin-bottom: 4rem;
+  }
+  #colaboraciones-1 #colaboraciones {
+    max-width: 900px;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -19,6 +19,7 @@
             text-align: center;
             margin-left: auto;
             margin-right: auto;
+            margin-bottom: 4rem;
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 
@@ -42,6 +43,19 @@
                     scale: 1.1;
                 }
             }
+        }
+    }
+}
+
+@media (min-width: 1000px) {
+    #colaboraciones-1 {
+        display: grid;
+        grid-template-areas: colaboraciones;
+        width: 90%;
+        margin-bottom: 4rem;
+
+        #colaboraciones {
+            max-width: 900px;
         }
     }
 }
