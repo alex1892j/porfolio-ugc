@@ -23,6 +23,12 @@ $datosVideo.forEach(el => {
     $templateVideo.querySelector("#video4-13").innerHTML = el.video13;
     $templateVideo.querySelector("#video4-14").innerHTML = el.video14;
     $templateVideo.querySelector("#video4-15").innerHTML = el.video15;
+    $templateVideo.querySelector("#video4-16").innerHTML = el.video16;
+    $templateVideo.querySelector("#video5-17").innerHTML = el.video17;
+    $templateVideo.querySelector("#video5-18").innerHTML = el.video18;
+    $templateVideo.querySelector("#video5-19").innerHTML = el.video19;
+    $templateVideo.querySelector("#video5-20").innerHTML = el.video20;
+
 
 
 
